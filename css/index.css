@@ -1,0 +1,19 @@
+.jumbotron .container {
+    position: relative;
+    overflow: hidden;
+}
+
+.jumbotron .container img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width:100%;
+    height: auto;
+    opacity: 0.6;
+}
+
+.jumbotron .container h1,
+.jumbotron .container p {
+    position: relative;
+    z-index: 2;
+}
