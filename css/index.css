@@ -7,7 +7,7 @@
     position: absolute;
     left: 0;
     top: 0;
-    width:100%;
+    width: 100%;
     height: auto;
     opacity: 0.6;
 }
@@ -16,4 +16,8 @@
 .jumbotron .container p {
     position: relative;
     z-index: 2;
+}
+
+.bottom-image {
+    width: 100%;
 }
